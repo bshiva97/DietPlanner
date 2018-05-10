@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "50603219876",
+    "firebase_url": "https://my-minor-de81d.firebaseio.com",
+    "project_id": "my-minor-de81d",
+    "storage_bucket": "my-minor-de81d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50603219876:android:7731c62fc0c294be",
+        "android_client_info": {
+          "package_name": "com.packtpub.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50603219876-43vcsbv6p2jc8e2ikhtqrdpc1vropls9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAksxo04LYkXkSxYBLCYaoK1abB-aiBVjs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50603219876:android:de5f0f334f1cce75",
+        "android_client_info": {
+          "package_name": "com.balbina.dietplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50603219876-hpgmb8est1vd0haus0m9ckcpocrmho2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.balbina.dietplanner",
+            "certificate_hash": "b60a26a03428c22ba167e77110ab847d8e1ef123"
+          }
+        },
+        {
+          "client_id": "50603219876-43vcsbv6p2jc8e2ikhtqrdpc1vropls9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAksxo04LYkXkSxYBLCYaoK1abB-aiBVjs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50603219876-43vcsbv6p2jc8e2ikhtqrdpc1vropls9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50603219876:android:5c64f1050d096085",
+        "android_client_info": {
+          "package_name": "com.packtpub.dietplannerfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50603219876-im5svapq532tn0534149ni8ifjegudi4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.packtpub.dietplannerfinal",
+            "certificate_hash": "49d2391f492c8d8d019f3316a074f2ced4a896f5"
+          }
+        },
+        {
+          "client_id": "50603219876-43vcsbv6p2jc8e2ikhtqrdpc1vropls9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAksxo04LYkXkSxYBLCYaoK1abB-aiBVjs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50603219876-43vcsbv6p2jc8e2ikhtqrdpc1vropls9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

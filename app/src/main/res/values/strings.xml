@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">DietPlanner</string>
+    <string name="profile">PROFILE</string>
+    <string name="everyday">FILL IN DAILY</string>
+    <string name="what">CHANGES</string>
+    <string name="shopping_list">SHOPPING LIST</string>
+    <string name="home">HOME</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello after log in fragment</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_shopping">shopping</string>
+    <string name="title_activity_what">what</string>
+    <string name="title_activity_daily">daily</string>
+    <string name="title_activity_front">front</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string-array name="userinput">
+        <item>In Numbers(1,2,3) </item>
+        <item>Approx(small amount,large amount) </item>
+    </string-array>
+    <string-array name="food_name">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Beverage</item>
+    </string-array>
+    <string name="title_activity_user__input">User_Input</string>
+    <string name="hometext1">\n
+1. Follow the correct mealtime.\n
+2. Be physically active during the day.\n
+3. Maintain a list of healthy foods.\n
+4. Replace processed foods with fruits and veggies.\n
+5. Include more Proteins.\n
+6. Include milk and milk products.\n
+7. Have the required carbs.\n
+8. Reduce the fat intake.\n
+9. Cut down sugar in your tea / coffee.\n
+10. Remove ‘Salt’ from your table.\n
+</string>
+    <string name="hometext2">\n
+1. Vitamins and Minerals\n
+2. Protein\n
+3. Carbohydrates\n
+4. Fats\n
+</string>
+
+    <string name="hometext">\n
+All said about the importance of balanced diet,
+you need to maintain it by following a balanced diet chart.
+A diet chart will give a better understanding of how much
+food to consume and what type of food you are supposed
+to eat.A balanced diet chart is a solution to irregular
+eating habits and dealing with weight gain problems.
+In order to follow a balanced diet chart one needs to
+prepare it and stick to it.\n
+</string>
+    <string name="hometext3">\n
+Breakfast is the most important meal of the day.
+Fill up your breakfast meal with protein like
+2-3 scrambled egg whites with a whole grain
+toast and a fruit of your choice or bowl of fruit
+oats porridge with sprouts salad.Protein kickstarts
+your metabolism and keeps you feeling fuller for
+longer during the day.\n
+</string>
+    <string name="hometext4">\n
+A fistful of dried fruit combined with nuts or seeds,
+provides protein and healthy fats to keep you satisfied till lunch.
+Combining the dried fruits with nuts helps in controlling the
+release of sugars in the body.\n
+</string>
+    <string name="hometext5">\n
+Choose carb-rich foods that will supply energy and protein like a
+bowl of dal/chicken/fish curry with brown rice or roti and a veg salad.
+You could also include beans or chicken sandwich with plenty of veggies.\n
+</string>
+    <string name="hometext6">\n
+Having a snack will keep your energy levels up and you can choose from
+a variety of nourishing options like Apple cinnamon granola bar or
+Nature Valley’s granola bar or you can have a fistful of nuts.\n
+</string>
+    <string name="hometext7">\n
+The supper of the day should be a combination of protein and carbs.
+You can include oily fish which are rich in omega 3 fatty acids like
+mackerel, salmon which is beneficial for healthy hair and skin.
+Fill up your dinner bowl with a variety of colourful veggies.
+Chicken/fish/paneer with roti /chila/ quinoa preparations and soup
+or salad with veggies.\n
+</string>
+    <string name="hometext8">\n
+A glass of low-fat milk with a pinch of elaichi\n
+</string>
+    <string-array name="fit_class">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+        <item>Highly Active</item>
+    </string-array>
+    <string-array name="aim_class">
+        <item>Bodybuilding</item>
+        <item>Maintenance</item>
+        <item>FatLoss</item>
+    </string-array>
+    <string name="title_activity_login_activity">login_activity</string>
+    <string name="title_activity_signup_activity">signup_activity</string>
+</resources>

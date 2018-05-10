@@ -1,0 +1,131 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        tools:context="com.packtpub.dietplannerfinal.inputfromuser"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edittext1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="26dp"
+            android:onClick="small"
+            android:visibility="invisible"
+            android:src="@mipmap/small"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/imageButton1"
+            android:layout_centerHorizontal="true"
+            android:onClick="medium"
+            android:visibility="invisible"
+            android:src="@mipmap/medium"
+            />
+
+        <TextView
+            android:id="@+id/textview5"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/autocomp1"
+            android:layout_alignBottom="@+id/autocomp1"
+            android:layout_toLeftOf="@+id/spinner"
+            android:layout_toStartOf="@+id/spinner"
+            android:text="Food Item:"
+            android:textSize="25dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autocomp1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="51dp"
+            android:layout_toEndOf="@+id/textview6"
+            android:layout_toRightOf="@+id/textview6"
+            android:completionThreshold="1"
+            android:imeOptions="actionSearch"
+            android:inputType="textAutoComplete|textAutoCorrect"
+            />
+
+        <TextView
+            android:id="@+id/textview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageButton1"
+            android:layout_alignRight="@+id/imageButton1"
+            android:layout_below="@+id/spinner"
+            android:layout_marginTop="89dp"
+            android:text="Quantity:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textview6"
+            android:layout_alignBottom="@+id/textview6"
+            android:layout_alignEnd="@+id/spinner"
+            android:layout_alignRight="@+id/spinner"
+             />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="200dp"
+            android:layout_height="64dp"
+            android:layout_below="@+id/textview5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="78dp"
+            android:entries="@array/userinput"></Spinner>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageButton3"
+            android:layout_alignTop="@+id/imageButton2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="22dp"
+            android:layout_marginEnd="22dp"
+            android:visibility="invisible"
+            android:onClick="large"
+            android:src="@mipmap/large"
+            />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/imageButton3"
+            android:layout_marginBottom="26dp"
+            android:text="THAT'S ALL"
+            android:textColor="@color/clover_green"
+            />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageButton1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/imageButton1"
+            android:text="ADD MORE"
+            android:textColor="@color/clover_green"
+            />
+
+    </RelativeLayout>
+</ScrollView>

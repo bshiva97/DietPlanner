@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+</RelativeLayout>
+    <!-- <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageview1"
+            android:src="@mipmap/breakfast"
+            android:gravity="center"
+            />-->
+    <!-- android:layout_toRightOf="@+id/imageview1"-->

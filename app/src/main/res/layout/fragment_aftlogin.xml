@@ -1,0 +1,142 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:orientation="vertical"
+        tools:context="com.balbina.dietplanner.aftlogin">
+
+
+        <ImageButton
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp"
+            android:id="@+id/logout"
+            android:src="@drawable/logout"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="height in cms"
+            android:layout_marginTop="26dp"
+            android:id="@+id/editText5"
+            android:layout_below="@+id/editText4"
+            android:layout_alignLeft="@+id/editText4"
+            android:layout_alignStart="@+id/editText4" />
+
+        <AutoCompleteTextView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="26dp"
+            android:hint="sex"
+            android:width="220dp"
+            android:id="@+id/autoCompleteTextView"
+            android:layout_below="@+id/editText5"
+            android:layout_alignLeft="@+id/editText5"
+            android:layout_alignStart="@+id/editText5" />
+
+        <Spinner
+            android:text="your lifestyle"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="41dp"
+            android:id="@+id/spinner2"
+            android:layout_below="@+id/autoCompleteTextView"
+            android:layout_alignLeft="@+id/autoCompleteTextView"
+            android:layout_alignStart="@+id/autoCompleteTextView"
+            android:layout_alignRight="@+id/editText5"
+            android:layout_alignEnd="@+id/editText5"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:hint="age"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="56dp"
+            android:id="@+id/textView11"
+            android:textSize="20dp"
+            android:layout_below="@+id/logout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/editText4"
+            android:layout_alignEnd="@+id/editText4" />
+
+        <TextView
+            android:text="Log Out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logout"
+            android:layout_alignRight="@+id/logout"
+            android:layout_alignEnd="@+id/logout"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/textView7" />
+
+
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:hint="weight in kgs"
+            android:ems="10"
+            android:layout_marginTop="29dp"
+            android:id="@+id/editText4"
+            android:layout_below="@+id/textView11"
+            android:layout_toLeftOf="@+id/textView7"
+            android:layout_toStartOf="@+id/textView7" />
+
+        <Spinner
+            android:text="your aim please"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/spinner2"
+            android:layout_alignLeft="@+id/spinner2"
+            android:layout_alignStart="@+id/spinner2"
+            android:layout_marginTop="28dp"
+            android:id="@+id/spinner3"
+            android:layout_alignRight="@+id/spinner2"
+            android:layout_alignEnd="@+id/spinner2"
+            />
+
+        <Button
+            android:text="Submit your details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner3"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="22dp"
+            android:id="@+id/button3_sub"
+            android:layout_alignRight="@+id/spinner3"
+            android:layout_alignEnd="@+id/spinner3"
+            />
+
+        <TextView
+            android:text="Welcome User"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="33dp"
+            android:layout_marginStart="33dp"
+            android:id="@+id/textView6"
+            android:textSize="25dp"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>
